@@ -1,0 +1,18 @@
+{
+  "name": "agente402-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for agente402 — extract receipt text to JSON for 0.01 USDC per call on Base",
+  "main": "index.js",
+  "bin": { "agente402-mcp": "./index.js" },
+  "files": ["index.js"],
+  "scripts": { "start": "node index.js" },
+  "keywords": ["mcp", "x402", "receipt", "invoice", "ocr", "base", "usdc"],
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@x402/core": "^2.28.0",
+    "@x402/evm": "^2.28.0",
+    "viem": "^2.0.0"
+  }
+}
